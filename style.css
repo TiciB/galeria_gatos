@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.cabecalho{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cabecalho h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.cabecalho h2{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.corpo{
+    background: radial-gradient(circle, #D9D9D9, #C0C0C0);
+
+}
+
+#gatos{
+    margin: 0 auto;
+    display: block;
+    max-width: 2048px;
+    width: 100%;
+}
+
+#gatos img{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+.cards{
+    display: inline-block;
+
+}
+
+.cards figcaption{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    
+
+}
+
+.rodape{
+    display: flex;
+    background-color: #ACACAC;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .cabecalho{
+      margin-top: 20px;
+      height: 200px; 
+    }
+    
+    .cabecalho h1{
+        font-size: 36px;
+    }
+
+    .cabecalho h2{
+        font-size: 18px;
+    }
+
+    #gatos img{
+        display: block;
+        height: 80%;
+        width: 80%;
+    }
+
+}
